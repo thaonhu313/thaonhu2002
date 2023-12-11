@@ -1,0 +1,157 @@
+@charset "utf-8";
+/* CSS Document */
+
+.top-bar {
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  background-color: #056cb6;
+  color: white;
+}
+.top-bar a {
+  color: white;
+}
+.top-bar:hover {
+  color: #f2c94c;
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+.navbar .navbar-nav .nav-item .nav-link:hover {
+  background-color: #056cb6;
+  color: #f2c94c;
+}
+.navbar .navbar-nav .nav-item .dropdown-menu {
+  background-color: #056cb6;
+  padding-bottom: 0;
+  padding-top: 0;
+  width: 220px;
+}
+.navbar .navbar-nav .nav-item .dropdown-menu .dropdown-item {
+  color: white;
+}
+.navbar .navbar-nav .nav-item .dropdown-menu .dropdown-item:hover {
+  background-color: #f2c94c;
+  padding-left: 25px;
+  transition: all 0, 7s;
+}
+main {
+  min-height: 500px;
+}
+footer {
+  width: 100%;
+  min-height: 300px;
+  color: white;
+}
+
+footer .navbar-nav .nav-item .nav-link:hover {
+  color: #f2c94c;
+}
+.bottom-bar {
+  line-height: 50px;
+  width: 100%;
+}
+.gach-chan {
+  border-bottom: 2px solid #ffc113;
+  padding-bottom: 5px;
+}
+#service a {
+  text-decoration: none;
+}
+#service a:hover {
+  color: #f2c94c;
+}
+#doi-ngu {
+  width: 100%;
+  height: 500px;
+}
+#why {
+  width: 100%;
+  height: 400px;
+  background: url("../images/why.jpg");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+}
+#client .hinh {
+  width: 100%;
+  position: relative;
+}
+#client .truoc {
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 5px;
+  background-color: #8e8e8e;
+}
+#client .sau {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  padding: 5px;
+  background-color: rgba(235, 98, 101, 1);
+}
+#banner {
+  min-height: 300px;
+  width: 100%;
+  background: url("../images/pageheader.png");
+}
+.text-trang {
+  color: white;
+}
+.ban-do {
+  width: 100%;
+}
+#cam-nhan .noidung img {
+  width: 100px;
+  height: 100px;
+}
+#doi-ngu .noidung img {
+  width: 100%;
+}
+
+#kh-camnhan .noidung img {
+  width: 100px;
+  height: 100px;
+}
+#cam-nhan .noidung {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#cam-nhan .vien-vang {
+  border: 3px solid color #f2c94c;
+  padding: 2px;
+}
+#cn .owl-nav {
+  position: absolute;
+  left: 0px;
+  top: 23%;
+  width: 100%;
+}
+#cn .owl-nav[class*="owl-"] {
+  font-size: 40px;
+  color: #db1518;
+}
+#cn .owl-nav .owl-next {
+  position: absolute;
+  right: 5%;
+}
+#cn .owl-nav .owl-prev {
+  position: absolute;
+  left: 5%;
+}
+#cn .owl-nav[class*="owl-"]:hover {
+  background: none;
+  border: none;
+  color: aqua;
+  text-decoration: none;
+}
+.anh {
+  align-items: center;
+  justify-content: center;
+  padding-left: 220px;
+}
